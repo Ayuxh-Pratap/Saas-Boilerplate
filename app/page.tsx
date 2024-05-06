@@ -4,7 +4,9 @@ import React from 'react'
 export default function page() {
   return (
     <div>
-      <Button>Click me</Button>
+      <Button>
+        <a href="/auth">click me</a>
+      </Button>
     </div>
   )
 }
