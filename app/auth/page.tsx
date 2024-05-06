@@ -32,7 +32,7 @@ export default function page() {
 
                 <div className='flex flex-col gap-5'>
                 <Button className='flex items-center gap-2 w-full' variant="outline" onClick={() => handleLoginWithOAuth("github") }> <FaGithub /> Github</Button>
-                <Button className='flex items-center gap-2 w-full' variant="outline"> <FcGoogle /> Google</Button>
+                <Button className='flex items-center gap-2 w-full' variant="outline" onClick={() => handleLoginWithOAuth("google")} > <FcGoogle /> Google</Button>
                 </div>
                 <div className='glowbox opacity-15 -z-10'></div>
 
